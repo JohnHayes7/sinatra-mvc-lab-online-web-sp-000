@@ -22,7 +22,7 @@ attr_accessor :text
           end
           # binding.pry
         end
-        "#{word[consonants.length..-1] + consonants.join+"ay"}"
+        "#{word[consonants.length..-1] + consonants.join + "ay"}"
       end
     end
    
