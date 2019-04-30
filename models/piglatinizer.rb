@@ -11,7 +11,7 @@ attr_accessor :text
     def pig_word(word)
       vowels = ["a", "e", "i", "o", "u"]
       consonants = []
-      if vowels.include?(word[0])
+      if vowels.include?(word[0].downcase)
         "#{word}way"
       else
         consonants << word[0].downcase
