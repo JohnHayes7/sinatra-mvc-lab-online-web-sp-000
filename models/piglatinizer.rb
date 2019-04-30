@@ -2,6 +2,7 @@ class PigLatinizer
 attr_accessor :text 
   
     
+    
     def piglatinize(text)
       word_ary = text.split(" ")
       w = word_ary.map{|word| pig_word(word)}
