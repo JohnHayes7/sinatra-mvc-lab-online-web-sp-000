@@ -14,7 +14,7 @@ attr_accessor :text
       if vowels.include?(word[0].downcase)
         "#{word}way"
       else
-        consonants << word[0].downcase
+        consonants << word[0]
         if !vowels.include?(word[1].downcase)
           consonants << word[1].downcase
           if !vowels.include?(word[2].downcase)
